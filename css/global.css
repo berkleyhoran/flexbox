@@ -39,6 +39,38 @@ p {
 #main {
   height: 2000px; }
 
+#sidebar {
+  height: 75%;
+  width: 16.65%;
+  background-color: brown; }
+
+#content {
+  height: 15%; }
+
+#footer {
+  margin-bottom: 0px;
+  position: sticky;
+  bottom: 1;
+  display: flex;
+  align-items: center;
+  flex: 1 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  z-index: 90; }
+  #footer .footlem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    height: 100%; }
+    #footer .footlem p {
+      margin: 0 auto;
+      height: 20%;
+      color: white; }
+
 #banner {
   position: relative;
   background-image: url("http://higher-resolution-photo.com/wp-content/uploads/2016/03/Photos_space_high_res_file_7.jpg");
@@ -54,6 +86,8 @@ p {
   height: 30%;
   background-repeat: no-repeat;
   background-position: -400px; }
+  #banner #logopic {
+    width: 50vw; }
 
 #logodiv {
   margin-left: 20px;
