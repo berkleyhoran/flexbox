@@ -42,11 +42,17 @@ p{
     height:2000px;
 }
 #maincontain{
-    height:500px;
+    height:1000px;
     display:flex;
     flex-flow:row;
     #content{
-        height:15%;
+        font-size:1.0vw;
+        width:100% - 6.65% + 16.65% ;
+        display:flex;
+        flex-flow:column;
+        .textbox{
+            margin: 10 10 10 10;
+        }
     }
     #sidebar{
         height:100%;
@@ -75,7 +81,8 @@ p{
 
 #footer{
     margin-bottom:0px;
-
+    position:fixed;
+    bottom:0;
     display:flex;
     align-items: center;
     flex:1 100%;
@@ -177,10 +184,10 @@ p{
     h2{
         font-size:20px;
     }
-    #sidebar{
-        flex-direction: column;
-        background-color: yellow; 
+    #content{
+        font-size:20px;
     }
+    
     
 }
 

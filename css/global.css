@@ -36,11 +36,16 @@ p {
   height: 2000px; }
 
 #maincontain {
-  height: 500px;
+  height: 1000px;
   display: flex;
   flex-flow: row; }
   #maincontain #content {
-    height: 15%; }
+    font-size: 1.0vw;
+    width: 110%;
+    display: flex;
+    flex-flow: column; }
+    #maincontain #content .textbox {
+      margin: 10 10 10 10; }
   #maincontain #sidebar {
     height: 100%;
     width: 33.3%;
@@ -61,6 +66,8 @@ p {
 
 #footer {
   margin-bottom: 0px;
+  position: fixed;
+  bottom: 0;
   display: flex;
   align-items: center;
   flex: 1 100%;
@@ -153,6 +160,5 @@ p {
     font-size: 40px; }
   h2 {
     font-size: 20px; }
-  #sidebar {
-    flex-direction: column;
-    background-color: yellow; } }
+  #content {
+    font-size: 20px; } }
